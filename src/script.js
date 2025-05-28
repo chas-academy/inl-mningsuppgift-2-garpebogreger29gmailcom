@@ -40,7 +40,7 @@ export function initSearch(people) { // rör ej denna rad
     for (let person of people) {
       
       if (person === inputText) {
-        resultHolder.innerHTML = "Namn hittades:" + inputText;
+        resultHolder.innerHTML = "Namn hittades: " + inputText;
         found = true;
       }
     } 
